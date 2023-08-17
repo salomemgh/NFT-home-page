@@ -1,0 +1,611 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #2B2B2B !important;
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: Space Mono;
+    src: url(SpaceMono-Regular.ttf);
+}
+.nft_brand{
+    color: #fff;
+}
+.nav-link{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .marketplace{
+        margin-top: 20px;
+    }
+}
+.nav-item{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.button_navigation{
+    border: none;
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.h1_discover, .h1_discover_mobile{
+    color: var(--white, #FFF);
+
+    font-family: Work Sans;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h1_discover_mobile{
+    font-size: 28px !important;
+}
+.p_marketplace, .p_marketplace_mobile{
+    color: var(--white, #FFF);
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_marketplace_mobile{
+    font-size: 12px !important;
+}
+.button_rocket, .button_rocket_mobile{
+    width: 224px;
+    height: 60px;
+    border: none;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.button_rocket_mobile{
+    width: 315px;
+}
+.h4_digit, .h4_digit_mobile{
+    color: var(--white, #FFF);
+
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.h4_digit_mobile{
+    font-size: 22px;
+}
+.paragraph1, .paragraph1_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.paragraph1_mobile{
+    font-size: 14px;
+}
+.paragraph_trending, .paragraph_trending_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.paragraph_trending_mobile{
+    font-size: 28px !important;
+}
+.p_checkout, .p_checkout_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_checkout_mobile{
+    font-size: 16px;
+}
+.h4_creators, .h4_creators_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h4_creators_mobile{
+    font-size: 28px;
+}
+.p_checkout{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.button_purple{
+    width: 247px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: none;
+}
+.span_view{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.cb_1{
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.number_circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: var(--background, #2B2B2B);
+}
+.p_number{
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.card_title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.p_total{
+    color: var(--caption-label-text, #858584);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.span_eth{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.h3_browse, .h3_browse_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h3_browse_mobile{
+    margin-left: 37px;
+    font-size: 28px !important;
+}
+.cb_mobile{
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.card_placeholder{
+    height: 76px;
+    background: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+}
+.card_placeholder_mob{
+    /* width: 147.5px; */
+    height: 67px;
+    background: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+}
+.img_placeholder{
+    top: 35% !important;
+    right: 35% !important;
+}
+.h5_description, .h5_description_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h5_description_mobile{
+    font-size: 16px !important;
+}
+.icon11{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.h3_discover, .h3_discover_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h3_discover_mobile{
+    font-size: 28px !important;
+}
+.p_explore, .p_explore_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_explore_mobile{
+    font-size: 16px !important;
+}
+
+.button_eye, .button_eye_mobile{
+    width: 187px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.button_eye_mobile{
+    width: 315px;
+}
+.title2{
+    color: var(--white, #FFF) !important;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card_text {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card_price{
+    color: #858584 !important;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.price_e, .price_e_mobile{
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.price_e_mobile{
+    font-size: 12px !important;
+}
+
+.card_1{
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    background: #3B3B3B !important;
+    border-radius: 30px !important;
+}
+.ellipse, .ellipse_mob{
+    margin-left: 140px;
+    margin-top: 420px;
+    width: 151px;
+    height: 44px;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.ellipse_mob{
+    margin-top: 120px !important;
+    margin-left: 25px !important;
+}
+.span_shroomie, .span_shroomie_mobile{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.magic{
+    margin-left: 140px;
+}
+.magic_mobile{
+    margin-left: 25px;
+}
+.paragraph_magic, .paragraph_magic_mobile{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.paragraph_magic_mobile{
+    font-size: 38px !important;
+}
+.button_eye2, .button_eye2_mobile{
+    border: none;
+    width: 198px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+}
+.button_eye2_mobile{
+    width: 315px !important;
+    height: 60px;
+}
+.span_nft2{
+    color: var(--background, #2B2B2B) !important;
+    font-family: Work Sans !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container_1, .container_1_mobile{
+    margin-top: 470px;
+    margin-left: 270px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 295px;
+    height: 147px;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+}
+.container_1_mobile{
+    width: 315px;
+    height: 147px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.p_auction{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.N59{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.N1{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.p_hms{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.p_how, .p_how_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.p_how_mobile{
+    font-size: 28px !important;
+}
+.p_find, .p_find_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_find_mobile{
+    font-size: 16px !important;
+}
+.card_background{
+    height: 439px !important;
+    background: hsla(0, 0%, 23%, 1) !important;
+    border-radius: 20px !important;
+}
+.card_title_header, .card_title_header_mobile{
+    color: #FFF !important;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card_title_header_mobile{
+    font-size: 16px !important;
+}
+.card_text, .card_text_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.card_text_mobile{
+    font-size: 12px;
+}
+.crd_bd{
+    border-radius: 20px;
+    background: hsla(0, 0%, 23%, 1);
+}
+.cont_grey{
+    height: 430px;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+.cosmonavt{
+    margin-top: 65px;
+}
+.h3_digest, .h3_digest_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h3_digest_mobile{
+    font-size: 28px !important;
+}
+.p_exclusive, .p_exclusive_mobile{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_exclusive_mobile{
+    font-size: 16px !important;
+}
+.email1{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button3, .button3_mobile{
+    width: 211px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background: var(--call-to-action, #A259FF);
+    position: absolute;
+    margin-right: 40px;
+}
+.button3_mobile{
+    margin-right: 10px !important;
+}
+
+.button_subscribe{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.input_mail{
+    width: 315px;
+    height: 46px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button_subscribe_mobile{
+    width: 315px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background: var(--call-to-action, #A259FF);
+}
+.background_secondary{
+    background: var(--background-secondary, #3B3B3B);
+    height: 334px;
+}
+.row_space{
+    padding-top: 50px;
+}
+.footer_header{
+    color: #FFF;
+
+font-family: Space Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+.footer_text{
+    color: #CCC;
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.a_text{
+    line-height: 40px;
+    text-decoration: none;
+}
+.hr_footer{
+    color: hsla(60, 0%, 52%, 1) !important;
+}
+.copyR_footer{
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}

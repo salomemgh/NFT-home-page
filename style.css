@@ -166,6 +166,9 @@ body{
     font-style: normal;
     font-weight: 600;
 }
+.link_NFTcreator{
+    text-decoration: none;
+}
 .cb_1{
     border-radius: 20px;
     background: #3B3B3B;
